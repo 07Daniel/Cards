@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@500&display=swap');
+
+body{
+    background-color: #0c1014;
+    font-family: 'Poppins';
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.main-title{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px 0;
+}
+header{
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 3px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    font-size: 1rem;
+    gap: 15px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 6px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.header__nav--active{
+    background-color: #cbe300;
+    pointer-events: none;
+}
+a.header__nav--active{
+    color: #05080a;
+}
+.cards{
+    display: flex;
+    gap:16px;
+}
+.pricing-plan{
+    flex: 1;
+    background-color: #1f2c2c;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+.plan-title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.pricing-plan p{
+    margin-top: 0;
+}
+.pricing-plan span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.plan-features{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex: 1;
+}
+.plan-features li::marker{
+    color: #cbe300;
+}
+.cta{
+    text-decoration: none;
+    color: #0c1014;
+    background-color: #cbe300;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+.cta:hover{
+    background-color: transparent;
+    outline: 1px solid #cbe300;
+    color: white;
+}
